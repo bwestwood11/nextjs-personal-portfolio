@@ -8,7 +8,7 @@ const About = () => {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4'>Who I am</h2>
-                <p className='py-2 text-gray-600'>// I am not your normal developer</p>
+                <p className='py-2 text-gray-600'> I am not your normal developer</p>
                 <p className='py-2 text-gray-600'>I have spent the last year honing in on my front-end web development skills; however, before that 
                 I was running a small local marketing agency with my brother. I have always had a knack for technology and working with computers.
                 I started with the basics of HTML & CSS. Now I am proficient in Javascript, Typescript, MySQL, React, NextJS & Rest APIs.
