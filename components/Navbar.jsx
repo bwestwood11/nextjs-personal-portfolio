@@ -5,6 +5,8 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
+import logo from '../public/assets/Brettlogo.png'
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -54,9 +56,9 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
+        <Image
             className="cursor-pointer"
-            src={"/../public/assets/Brettlogo.png"}
+            src={logo}
             alt="/"
             width="125"
             height="125"
