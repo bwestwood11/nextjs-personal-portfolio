@@ -27,10 +27,14 @@ const fitness = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>Describe the project here.</p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4" py-2 mt-4>
-            Code
-          </button>
+          <a href="https://brettwestwood-gym.netlify.app/">
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a href="https://github.com/bwestwood11/brettwestwoodfitnessapp">
+            <button className="px-8 py-2 mt-4" py-2 mt-4>
+              Code
+            </button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -54,10 +58,9 @@ const fitness = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-          <p className="underline cursor-pointer" >Back</p>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back</p>
         </Link>
-
       </div>
     </div>
   );

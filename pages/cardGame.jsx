@@ -27,7 +27,7 @@ const cardGame = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>This project </p>
-          <a href="https://bit.ly/3EeMN0E">
+          <a href="https://applianceplugcardgame.netlify.app">
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a href="https://github.com/bwestwood11/cardgame.git">
@@ -44,16 +44,10 @@ const cardGame = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
+                <RiRadioButtonFill className="pr-1" /> CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Google API
               </p>
             </div>
           </div>
