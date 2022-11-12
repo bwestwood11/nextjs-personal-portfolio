@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaTiktok } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div id="home" className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center md:-mb-72">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
@@ -23,32 +23,26 @@ const Main = () => {
             learning back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-6">
-              <a href="https://www.linkedin.com/in/brett-westwood/">
+            <a href="https://www.linkedin.com/in/brett-westwood/">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedin />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-6">
-              <a href="https://github.com/bwestwood11">
+              </div>
+            </a>
+            <a href="https://github.com/bwestwood11">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-6">
-              <a href="mailto:dabrettwestwood@gmail.com">
-                {" "}
+              </div>
+            </a>
+            <a href="mailto:dabrettwestwood@gmail.com">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-6">
-              <Link href="/#contact">
-                <BsFillPersonLinesFill />
-              </Link>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <a href="https://www.tiktok.com/@brett_westwood?_t=8XGG5SVUohy&_r=1">
+              </div>
+            </a>
+            <a href="https://www.tiktok.com/@brett_westwood?_t=8XGG5SVUohy&_r=1">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaTiktok />
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
