@@ -6,6 +6,7 @@ import ProjectItem from './ProjectItem'
 import fitnessImg from '../public/assets/projects/fitness.png'
 import restaurantImg from '../public/assets/projects/restaurantImg.png'
 import cardgameImg from '../public/assets/projects/cardgame.png'
+import membershipImg from '../public/assets/projects/membership.png'
 
 const Projects = () => {
   return (
@@ -15,6 +16,11 @@ const Projects = () => {
           <h2 className='py-4'>What Ive Built</h2>
           <div className='grid md:grid-cols-2 gap-8'>
 
+      <ProjectItem 
+      title='Appliance Plug App' 
+      backgroundImg={membershipImg}
+      projectUrl='/membershipwebsite'
+      />
       <ProjectItem 
       title='Fitness App' 
       backgroundImg={fitnessImg}
