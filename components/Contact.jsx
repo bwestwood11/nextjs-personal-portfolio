@@ -37,18 +37,22 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
+                  <a href="https://www.linkedin.com/in/brett-westwood/">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaLinkedin />
-                  </div>
+                  </div></a>
+                  <a href="https://github.com/bwestwood11">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaGithub />
-                  </div>
+                  </div></a>
+                  <a href="mailto:dabrettwestwood@gmail.com">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
-                  </div>
+                  </div></a>
+                  <Link href='/#contact'>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <BsFillPersonLinesFill />
-                  </div>
+                  </div></Link>
                 </div>
               </div>
             </div>

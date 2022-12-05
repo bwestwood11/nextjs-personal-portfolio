@@ -5,30 +5,28 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
-import logo from '../public/assets/Brettlogo.png'
-
+import logo from "../public/assets/Brettlogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3')
-  const [linkColor, setLinkColor] = useState('#1f2937')
-  const router = useRouter()
+  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [linkColor, setLinkColor] = useState("#1f2937");
+  const router = useRouter();
 
   useEffect(() => {
-  if (
-    router.asPath === '/fitness' ||
-    router.asPath === '/restaurant' ||
-    router.asPath === '/cardGame' 
-  ) {
-    setNavBg('transparent')
-    setLinkColor('#ecf0f3')
-  } else {
-    setNavBg('#ecf0f3')
-    setLinkColor('#1f2937')
-  }
-  }, [router])
-  
+    if (
+      router.asPath === "/fitness" ||
+      router.asPath === "/restaurant" ||
+      router.asPath === "/cardGame"
+    ) {
+      setNavBg("transparent");
+      setLinkColor("#ecf0f3");
+    } else {
+      setNavBg("#ecf0f3");
+      setLinkColor("#1f2937");
+    }
+  }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -47,7 +45,7 @@ const Navbar = () => {
 
   return (
     <div
-    style={{backgroundColor: `${navBg}`}}
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]"
@@ -56,7 +54,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-        <Image
+          <Image
             className="cursor-pointer"
             src={logo}
             alt="/"
@@ -65,7 +63,7 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul style={{color: `${linkColor}` }} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -106,12 +104,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src={logo}
-                width="87"
-                height="75"
-                alt="/"
-              />
+              <Image src={logo} width="87" height="75" alt="/" />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -158,26 +151,28 @@ const Navbar = () => {
                 Lets Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <a href="https://www.linkedin.com/in/brett-westwood/">
+                <a href="https://www.linkedin.com/in/brett-westwood/">
+                
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
-                  </a>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <a href="https://github.com/bwestwood11">
+                  </div>
+                </a>
+                <a href="https://github.com/bwestwood11">
+                  
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
-                  </a>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <a href="mailto:dabrettwestwood@gmail.com">
-                  <AiOutlineMail />
-                  </a>
-                </div>
+                  </div>
+                </a>
+                <a href="mailto:dabrettwestwood@gmail.com">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
+                </a>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <div onClick={() => setNav(false)}>
-                  <Link href='#contact'>
-                  <BsFillPersonLinesFill />
-                  </Link>
+                    <Link href="#contact">
+                      <BsFillPersonLinesFill />
+                    </Link>
                   </div>
                 </div>
               </div>
