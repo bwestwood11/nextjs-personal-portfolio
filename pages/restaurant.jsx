@@ -26,7 +26,12 @@ const restaurant = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Describe the project here.</p>{" "}
+          <p className="mt-8">
+            This project is a restaurant webpage that is created with HTML, CSS
+            & Javascript as a React application. UseState, conditional
+            rendering, & JSX are some of the main things that is shown in this
+            project.
+          </p>{" "}
           <a href="https://restaurantclonebybrettwestwood.netlify.app/">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
@@ -44,16 +49,13 @@ const restaurant = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
+                <RiRadioButtonFill className="pr-1" /> CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Google API
+                <RiRadioButtonFill className="pr-1" /> HTML
               </p>
             </div>
           </div>
