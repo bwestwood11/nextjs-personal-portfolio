@@ -27,10 +27,10 @@ const cardGame = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="pt-2"> I created a Netflix clone pulling in realtime data from the MovieDatabase API. I implemented multiple
-          technologies to create a fully functional application. The sign-up and sign-in screen use the power of Google's Firebase Authentication and 
+          technologies to create a fully functional application. The sign-up and sign-in screen use the power of Googles Firebase Authentication and 
           Firestore Database. This will actually allow for the user to create and account and sign-in.</p>
           <p className="pt-4">
-            Redux is implemented to keep track of the current user's data. This allows for easy management of the user and their information. 
+            Redux is implemented to keep track of the current users data. This allows for easy management of the user and their information. 
             Stripe is also a feature that is added to this application allowing the user to select between three plans. While logged in, 
             the application will let you know your current plan along with your monthly renewal date.
           </p>
