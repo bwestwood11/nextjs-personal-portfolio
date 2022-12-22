@@ -5,7 +5,7 @@ import projectOne from '../public/assets/projects/fitness.png'
 import ProjectItem from './ProjectItem'
 import fitnessImg from '../public/assets/projects/fitness.png'
 import restaurantImg from '../public/assets/projects/restaurantImg.png'
-import cardgameImg from '../public/assets/projects/cardgame.png'
+import netflixImg from '../public/assets/projects/netflixImg.png'
 import membershipImg from '../public/assets/projects/membership.png'
 
 const Projects = () => {
@@ -32,8 +32,8 @@ const Projects = () => {
       projectUrl='/restaurant'
       />
       <ProjectItem 
-      title='Magic Card Game' 
-      backgroundImg={cardgameImg}
+      title='Netflix Clone' 
+      backgroundImg={netflixImg}
       projectUrl='/cardGame'
       />
 
