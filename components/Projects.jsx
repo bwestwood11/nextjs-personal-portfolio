@@ -17,7 +17,7 @@ const Projects = () => {
           <div className='grid md:grid-cols-2 gap-8'>
 
       <ProjectItem 
-      title='Appliance Plug App' 
+      title='The Appliance Plug Membership Program' 
       backgroundImg={membershipImg}
       projectUrl='/membershipwebsite'
       />
@@ -34,7 +34,7 @@ const Projects = () => {
       <ProjectItem 
       title='Netflix Clone' 
       backgroundImg={netflixImg}
-      projectUrl='/cardGame'
+      projectUrl='/netflix'
       />
 
     

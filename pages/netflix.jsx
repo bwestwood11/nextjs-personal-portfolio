@@ -4,7 +4,7 @@ import netflixImg from "../public/assets/projects/netflixImg.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const cardGame = () => {
+const netflix = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -89,4 +89,4 @@ const cardGame = () => {
   );
 };
 
-export default cardGame;
+export default netflix;

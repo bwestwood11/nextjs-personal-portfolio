@@ -40,9 +40,10 @@ const About = () => {
           <Image
             className="rounded-xl"
             src={headshot}
-            width="1175"
+            width="875"
             height="1175"
             alt="/"
+            objectFit="contain"
           />
         </div>
       </div>
