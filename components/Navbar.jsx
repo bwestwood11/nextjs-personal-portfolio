@@ -82,7 +82,7 @@ const Navbar = () => {
               <li className="ml-10 text-sm uppercase hover:border-b">
                 My Blog
               </li>
-              </a>
+            </a>
             <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
@@ -145,6 +145,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
+              <a href="https://blog-application-2dtwjye9m-bwestwood11.vercel.app/">
+                <li className="ml-10 text-sm uppercase hover:border-b">
+                  My Blog
+                </li>
+              </a>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
@@ -157,13 +162,11 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a href="https://www.linkedin.com/in/brett-westwood/">
-                
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
                 </a>
                 <a href="https://github.com/bwestwood11">
-                  
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
                   </div>
