@@ -146,7 +146,7 @@ const Navbar = () => {
                 </li>
               </Link>
               <a href="https://blog-application-2dtwjye9m-bwestwood11.vercel.app/">
-                <li className="ml-10 text-sm uppercase hover:border-b">
+                <li className="py-4 text-sm">
                   My Blog
                 </li>
               </a>
