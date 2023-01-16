@@ -78,6 +78,11 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
+            <a href="https://blog-application-2dtwjye9m-bwestwood11.vercel.app/">
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                My Blog
+              </li>
+              </a>
             <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
